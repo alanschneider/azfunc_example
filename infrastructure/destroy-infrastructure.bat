@@ -1,0 +1,1 @@
+call az group delete --name AzureFunctionsQuickstart-rg --yes
