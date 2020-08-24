@@ -12,6 +12,10 @@ Run `dotnet build`, the run the following from the Azure CLI:
 
 `./deploy-app.bat`
 
+Because the Azure Storage account is used, you will also need to pull connection string from Azure:
+
+`func azure functionapp fetch-app-settings azfuncqstart`
+
 ## Run the app locally
 
 Run `func start`
